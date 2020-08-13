@@ -28,8 +28,13 @@ header{
     margin-left:0px !important;
     margin-top: 7px;
 }
+
+.container{
+   
+}
 header .container{
     margin :auto;
+    
 }
 header p{
     color: indigo;
@@ -68,7 +73,7 @@ header p{
 }
 
 #nav-list a:hover{
-    background: gray;
+    background:rgba(128, 0, 128, 0.397);
 }
 
 #nav-list a span{
@@ -88,5 +93,53 @@ header p{
     text-align: right;
     padding-right:15px;
 }
+
+ .navbar-header .icon-bar{
+
+    border: 2px solid indigo;
+    width:30px;
+    
+
+}
+.navbar-header button.navbar-toggle{
+    
+    border:0;
+    margin-top: 15px;
+
+}
+
+
+#collapsable-nav a{
+    font-size: 24px;
+}
+#collapsable-nav a span{
+    font-size: 22px;
+}
+.img-responsive{
+    border-radius: 10px;
+    
+}
+
+.jumbotron{
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.61);
+}
+
+div#call-btn{
+    background-color: ivory;
+    
+    color: indigo;
+    text-align: center;
+    width:93.6%;
+    margin:auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.61);
+}
+
+.btn{
+    font-size: 24px;
+    color: indigo;
+}
+    
 
 
