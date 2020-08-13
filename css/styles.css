@@ -1,17 +1,53 @@
-.row{
-    border:2px solid black;
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: indigo;
+    color: ivory; 
+    
 }
-.row > div {
-    border: 2px solid red;
-    padding: 2px;
-   
-}
-h1{
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 4px;
-    width: 50%;
-    background-color: chartreuse;
-    margin: 5px auto 5px auto;
 
+.navbar-brand h1{
+    
+    color: indigo;
+    margin-top:0;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+.navbar-brand{
+    padding: 3px;
+    margin-left:0px !important;
+    margin-top: 7px;
+}
+header .container{
+    margin :5px;
+}
+header p{
+    color: indigo;
+    margin: 2px;
+    font-size: 16px
+
+}
+
+#header-nav{
+    background-color: ivory;
+  
+    border-radius: 0;
+    border: 0;
+
+    
+
+}
+
+#logo-img{
+    background: url('../images/part_4Artboard1.png')  no-repeat;
+    background-size: 60px;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    
 }
