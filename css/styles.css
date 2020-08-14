@@ -6,7 +6,7 @@ body{
     
 }
 header{
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.61);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
     color:indigo;
 }
 
@@ -29,9 +29,6 @@ header{
     margin-top: 7px;
 }
 
-.container{
-   
-}
 header .container{
     margin :auto;
     
@@ -116,12 +113,14 @@ header p{
     font-size: 22px;
 }
 .img-responsive{
-    border-radius: 10px;
+    border-radius: 5px;
     
 }
 
 .jumbotron{
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.61);
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.61);
+    margin:0;
+    padding: 0 !important;
 }
 
 div#call-btn{
@@ -133,13 +132,56 @@ div#call-btn{
     margin:auto;
     margin-bottom: 15px;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.61);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.411);
 }
 
 .btn{
     font-size: 24px;
     color: indigo;
 }
-    
 
+#designtypes,#popular,#map{
+    height:250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position:relative;
+    overflow: hidden;
+    background-color: ivory;
+    border-radius: 5px;
+}
+#designtypes:hover,#popular:hover,#map:hover{
+    box-shadow:0px 0px 10px 5px rgba(0, 0, 0, 0.411); ;
+}
+#tiles{
+    margin-top: 20px;
+}
+
+#tiles span {
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    color: indigo;
+    background-color: rgba(128, 128, 128, 0.5);
+    font-weight: 600;
+}
+
+
+#tiles a:hover{
+    text-decoration: none;
+}
+
+@media (min-width:1200px){
+
+}
+
+@media (min-width:992px) and (max-width:1199px){
+
+}
+@media (min-width:768px) and (max-width:991px){
+
+}
+@media (max-width:767px)
 
