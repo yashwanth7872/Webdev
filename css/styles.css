@@ -173,6 +173,55 @@ div#call-btn{
     text-decoration: none;
 }
 
+.panel-footer{
+    color: indigo;
+    margin-top: 20px;
+    border:0;
+    box-shadow: 10px 0px 10px 10px rgba(0, 0, 0, 0.5);
+    
+    
+}
+.panel-footer .row{
+
+    margin-bottom: 20px;
+
+}
+
+#hours,#address,#testimonials{
+    line-height:2;
+}
+
+#hours>span,#address>span{
+    font-size:20px;
+    font-weight: 700;
+}
+
+#testimonials{
+    font-style: italic;
+}
+
+
+.designs-tile{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    background-color: ivory;
+    border-radius: 5px;
+    margin: 0 auto 15px;
+    overflow: hidden;
+}
+.designs-tile:hover{
+    box-shadow:  0px 0px 10px 5px rgba(0, 0, 0, 0.61);
+}
+
+.designs-tile span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align:center;
+    background-color: rgba(128, 128, 128, 0.5);
+}
 @media (min-width:1200px){
 
 }
@@ -183,5 +232,16 @@ div#call-btn{
 @media (min-width:768px) and (max-width:991px){
 
 }
-@media (max-width:767px)
+@media (max-width:767px){
+
+    .panel-footer section{
+        text-align: center;
+        margin-bottom: 20px;
+        
+    }
+    #hours,#address,#testimonials{
+        line-height:1.2;
+    }
+
+}
 
