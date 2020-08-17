@@ -70,7 +70,8 @@ header p{
 }
 
 #nav-list a:hover{
-    background:rgba(128, 0, 128, 0.397);
+    background:rgba(116, 116, 116, 0.527);
+    border-radius: 5px;
 }
 
 #nav-list a span{
@@ -185,6 +186,7 @@ div#call-btn{
 .panel-footer .row{
 
     margin-bottom: 20px;
+    background-color: ivory;
 
 }
 
@@ -223,6 +225,68 @@ div#call-btn{
     text-align:center;
     background-color: rgba(128, 128, 128, 0.5);
 }
+
+
+/* examples styles */
+.example-tile{
+    margin-bottom: 20px;
+    
+}
+.example-tile .row{
+    background-color: ivory;
+    color: black;
+    border-radius:5px;
+    margin: 10px;
+}
+
+.example-tile .example-price{
+    font-size: 24px;
+    text-align:center;
+    background-color: grey;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 20px;
+    
+}
+
+.example-photo{
+    position: relative;
+    overflow:hidden;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 150px;
+}
+
+.example-photo div{
+    position: absolute;
+    bottom :0;
+    right:0;
+    width:80px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    color: ivory;
+}
+
+.example-desc{
+    padding-right: 20px;
+}
+
+h3.example-title{
+    font-weight: 600;
+}
+
+.details{
+    font-style: italic;
+}
+
+
+
 @media (min-width:1200px){
 
 }
@@ -242,6 +306,10 @@ div#call-btn{
     }
     #hours,#address,#testimonials{
         line-height:1.2;
+    }
+
+    .example-desc{
+        text-align: center;
     }
 
 }
