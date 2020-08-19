@@ -26,10 +26,9 @@
     font-weight: 700;
 }
 
-#menu h2{
-    text-align: center;
-}
+
 
 #chicken{
     background-color: yellow;
+    margin-bottom: 15px;
 }
