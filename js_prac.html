@@ -5,24 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script>
-        function order(item) {
-            if (item === undefined) {
-                item = "Nothing Ordered";
-            }
-            console.log(item);
-
+    <style>
+        input:focus ,input ,button{
+            border:5px solid blue;
+            border-radius: 5px;
+            height: 50px;
+            width:300px;
+            font-size: 30px;
+            padding:0;
         }
-        order("Portrait");
-        order();
-        var item = new Object();
-        item.name = "Nothing";
-        console.log(item);
-    </script>
+        
+    </style>
+    
 </head>
 
 <body>
-    <h1>Yashwanth</h1>
+    <h1 id="name"></h1>
+    <input id="stext" type="text">
+    <button onclick="fun1();">Click</button>
+    <script>
+            function fun1(){
+            var text=document.getElementById("stext").value;
+            
+            console.log(text);
+            document.getElementById("name").textContent=text;
+            }
+        
+        
+
+    </script>
+    
 </body>
 
 </html>
